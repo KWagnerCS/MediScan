@@ -13,5 +13,5 @@ def send(message, number):
         smtp.login(email_sender, email_password)
         smtp.sendmail(email_sender, email_receiver, message)
 
-  
-send("jackie chen", "3523286375")
+if __name__ == "__main__":
+    main()
