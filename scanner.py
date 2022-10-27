@@ -11,13 +11,12 @@ while(True):
     ret, frame = vid.read()
   
     # Display the resulting frame
-  #  cv.imshow('frame', frame)
+    cv.imshow('frame', frame)
       
     # the 'q' button is set as the
     # quitting button you may use any
     # desired button of your choice
     if cv.waitKey(1) & 0xFF == ord('q'):
-        cv.imshow('frame', frame)
         break
 
   
